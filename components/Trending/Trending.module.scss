@@ -1,8 +1,36 @@
 .trending {
+  width: auto;
   h2 {
     padding: 1.5em;
     span {
       font-weight: 800;
     }
   }
+
+  section {
+    height: 300px;
+    position: relative;
+
+    .list {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .next {
+      position: absolute;
+      right: 1rem;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 40px;
+      display: flex;
+      height: 40px;
+      justify-content: center;
+      // font-weight: 800;
+      font-size: 2rem;
+      align-items: center;
+    }
+  }
+}
+
+.hidden {
+  display: none;
 }

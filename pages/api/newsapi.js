@@ -13,7 +13,7 @@ export async function getAllArticles() {
     }
 
     const data = await res.json();
-    return data;
+    return data?.articles;
   } catch (error) {
     return error;
   }
