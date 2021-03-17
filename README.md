@@ -35,5 +35,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Utils to install
 
--- Sass
-`npm install sass`
+- Sass
+  `npm install sass`
